@@ -3,7 +3,9 @@
 Скрипт на русском языке
 
 ## Installation
-git clone https://github.com/b2smile/archunstall.git
+```sh
+git clone https://github.com/b2smile/archinstall.git
 cd b2smile
 chmod +x archinstall
-./atchinstall
+./archinstall
+```
