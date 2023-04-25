@@ -7,7 +7,13 @@
 ## Installation
 ```sh
 git clone https://github.com/b2smile/archinstall.git
-cd b2smile
+```
+```sh
+cd archinstall
+```
+```sh
 chmod +x archinstall
+```
+```sh
 ./archinstall
 ```
