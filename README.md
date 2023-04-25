@@ -15,5 +15,5 @@ cd archinstall
 chmod +x archinstall.sh
 ```
 ```sh
-./archinstall
+./archinstall.sh
 ```
