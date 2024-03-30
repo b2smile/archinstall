@@ -1,17 +1,5 @@
-# Скрипт для установки Arch
+Для запуска скрипта
 
-> Скрипт на русском языке
+pacman -Syy git ; git clone https://github.com/linuxshef/archinstall.git ; ./archinstall
 
-## Installation
-```sh
-git clone https://github.com/b2smile/archinstall.git
-```
-```sh
-cd archinstall
-```
-```sh
-chmod +x archinstall.sh
-```
-```sh
-./archinstall.sh
-```
+На ошибки в процессе выполнения команды по поводу git - не обращаем внимания .
