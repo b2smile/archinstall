@@ -1,15 +1,14 @@
 #!/bin/bash
-#
-#  Arch Linux Install (Archinstall) v.3.0
-#------------------------------------------|
+#────────────────────────────────
+#  Version  : Arch Linux Install v.3.0.1
 #           :
-# Author    : LinuxShef
+#  Author   : LinuxShef
 #           :
-# Project   : https://github.com/shefpower/archinstall.git
+#  Project  : https://github.com/shefpower/archinstall.git
 #           :
-# License   : LGPL-3.0 (http://opensource.org/licenses/lgpl-3.0.html)
+#  License  : LGPL-3.0 (http://opensource.org/licenses/lgpl-3.0.html)
 #           :
-#----------------------------------------------------------------------|
+#────────────────────────────────
 clear
 echo '
 
@@ -96,14 +95,14 @@ echo '
                                               ─▄▀─▄▀
                                               ──▀──▀
                                               █▀▀▀▀▀█▄
-                                              █░░░░░█─█     Добро пожаловать в программу установки ArchLinux!
+                                              █░░░░░█─█     Добро пожаловать в программу установки ArchLinux !
                                               ▀▄▄▄▄▄▀▀
                                                 ─────────────────────────────────────────────────────────────────
 
 
-                                                    Внимание!  скрипт НЕ создает разделы на диске, разделы вы
+                                                    Внимание !  скрипт НЕ создает разделы на диске , разделы вы
 
-                                                создаёте сами, поэтому если вы ещё не создали разделы - создайте их
+                                                создаёте сами , поэтому если вы еще не создали разделы - создайте их
 
 
                                               ───────────────────────────────────────────────────────────────────────────
@@ -142,7 +141,7 @@ echo '
 
 
 
-                                                             Добро пожаловать в меню раметки диска!
+                                                             Добро пожаловать в меню раметки диска !
 
                                                 . ────────────────────────────────────────────────────────────.
                                                 .                                                             .
@@ -218,7 +217,7 @@ echo '
                                               .                                                              .
                                               .  Название региона можно посмотреть в списке регионов или     .
                                               .                                                              .
-                                              .  ввести вручную, если уже знаете, именно в таком формате     .
+                                              .  ввести вручную , если уже знаете , именно в таком формате   .
                                               .                                                              .
                                               .                  Пример -->   /Europe/Moscow                 .
                                               .                                                              .
@@ -289,7 +288,7 @@ echo '
                                               .                                                             .
                                               .             Введите имя диска для разметки                  .
                                               .                                                             .
-                                              .   ** Это важно для дальнейшей установки загрузчика GRUB **  .
+                                              .   ** Это важно для дальнейщей установки загрузчика GRUB **  .
                                               .                                                             .
                                               .         Например ( sda , sdb, sdc , nvme0n1 )               .
                                               .                                                             .
@@ -413,7 +412,7 @@ echo '
                                      .                  Например ( sda2, sdb2, sdc2 , nvme0n1p2 )                     .
                                      .                                                                                .
                                      .                                                                                .
-                                     .   ** Внимание! Если вы не создали swap или home, то оставьте поле пустым **    .
+                                     .   ** Внимание ! Если вы не создали swap или home то оставьте поле пустым **    .
                                      .                                                                                .
                                      .!!! Для обычного Bios, и установки в один раздел оставьте поле boot пустым !!!! .
                                      .                                                                                .
@@ -449,11 +448,11 @@ echo '
                                                 .─────────────────────────────────────────────────────────────.
                                                 .                                                             .
                                                 .                                                             .
-                                                .      Выберите файловую систему загрузочного boot раздела    .
+                                                .      Выберите файловую систему загрузочного  boot раздела   .
                                                 .                                                             .
                                                 .  Согласно вашей версии Bios (обычный стрый BIOS или UEFI)   .
                                                 .                                                             .
-                                                .   Для UEFI формат FAT32. Для обычнго BIOS Ext4 или Ext2.    .
+                                                .   Для UEFI формат FAT32 . Для обычнго BIOS Ext4 или Ext2    .
                                                 .                                                             .
                                                 .                                                             .
                                                 .─────────────────────────────────────────────────────────────.
@@ -549,7 +548,7 @@ echo '
 
 
 
-                                                       Home раздел, выбор файловой системы Home раздела
+                                                       Home раздел , выбор файловой системы Home раздела
 
                                                     .───────────────────────────────────────────────────────.
                                                     .                                                       .
@@ -748,13 +747,13 @@ echo '
                                                   .──────────────────────────────────────────────────────────.
                                                   .                                                          .
                                                   .                                                          .
-                                                  .          Монтирование загрузочного раздела!              .
+                                                  .          Монтирование загрузочного раздела !             .
                                                   .                                                          .
                                                   .   Выберите один из варинтов монтирования boot раздела    .
                                                   .                                                          .
-                                                  .               Для UEFI биоса введите   1                 .
-                                                  .                                                          .
                                                   .       Для обычного биоса (НЕ UEFI) введите   2           .
+                                                  .                                                          .
+                                                  .             Для UEFI биоса , введите   1                 .
                                                   .                                                          .
                                                   .          Без boot раздела DOS/MBR введите     3          .
                                                   .                                                          .
@@ -770,7 +769,7 @@ echo -e "\t
 echo -e "\t
                                                              -> Без boot раздела DOS/MBR   (  3  )
 
-                                                            (Если вы устанавливаете всё в один радел для MBR ) "
+                                                            (Если вы устанавливаете все в один радел для  MBR ) "
 echo -n "
 
                                                                -> Введите значение : "
@@ -805,14 +804,14 @@ echo '
 
 
 
-                                                                          Пароль root
+                                                                          Парль root
 
                                                  .───────────────────────────────────────────────────────────.
                                                  .                                                           .
                                                  .                                                           .
-                                                 .                   Укажите пароль Root !                   .
+                                                 .                   Укажите парль Root !                    .
                                                  .                                                           .
-                                                 .          Внимание! Запомните логин рут, здесь - root      .
+                                                 .          Внимание ! Запомните логин рут , здесь - root    .
                                                  .                                                           .
                                                  .              И пароль тот который вы щас зададите         .
                                                  .                                                           .
@@ -835,18 +834,18 @@ echo '
 
 
 
-                                                                  Учётная запись пользователя
+                                                                  Учетная запись пользователя
 
                                                  .───────────────────────────────────────────────────────────.
                                                  .                                                           .
                                                  .                                                           .
-                                                 .           Введите имя вашей учётной записи!               .
+                                                 .           Введите имя вашей учетной записи !!!            .
                                                  .                                                           .
                                                  .                                                           .
                                                  .───────────────────────────────────────────────────────────.
 '
 read -p "
-                                                       -> Введите имя учётной записи :  " username
+                                                       -> Введите имя учетной записи :  " username
 clear
 echo '
 
@@ -862,12 +861,12 @@ echo '
 
 
 
-                                                               Пароль учётной записи пользователя
+                                                               Парль учетной записи пользователя
 
                                                  .───────────────────────────────────────────────────────────.
                                                  .                                                           .
                                                  .                                                           .
-                                                 .           Укажите пароль вашей учётной записи!            .
+                                                 .           Укажите парль вашей учетной записи !!!          .
                                                  .                                                           .
                                                  .                                                           .
                                                  .───────────────────────────────────────────────────────────.
@@ -891,7 +890,7 @@ echo '
                                                 .──────────────────────────────────────────────────────────────.
                                                 .                                                              .
                                                 .                                                              .
-                                                .  Выберите один из варинтов ядра для установки системы:       .
+                                                .  Выберите один из варинтов ядра ,для установки системы :     .
                                                 .                                                              .
                                                 .   -> С обычным ядром Linux - введите 1                       .
                                                 .                                                              .
@@ -1000,7 +999,6 @@ echo -e "\t
                                                            -> Для графики Intel введите ( 1 ) "
 echo -e "\t
 
-
                                                            -> Для графики AMD введите   ( 2 )  "
 
 echo -e "\t
@@ -1047,19 +1045,19 @@ echo '
                                                  .                                                       .
                                                  .   Open source драйвер  и проприетарный драйвер        .
                                                  .                                                       .
-                                                 .   Опенсоурс драйвер лучше для видеокарт старых,       .
+                                                 .   Опенсоурс драйвер лучше для видеокарт старых ,      .
                                                  .                                                       .
-                                                 .  до архитектуры Kepler, а для новых видеокарт лучше   .
+                                                 .  до архитектуры Kepler , а для новых видеокарт лучше  .
                                                  .                                                       .
-                                                 .    проприетарный драйвер. Выберите свой вариант       .
+                                                 .    проприетарный драйвер . Выберите свой варинт       .
                                                  .                                                       .
                                    <───────────────────────────────────────────────────────────────────────────────────>
 
-                                       Установка драйвера не гарантирует что всё с первого раза запуститься хорошо.
+                                       Установка драйвера не гарантирует что все с первого раза запуститься хорошо.
 
-                                              Nvidia не открывает свой код для написания нормальных драйверов,
+                                              Nvidia не открывает свой код для написания нормальных драйверов ,
 
-                                        поэтому гарантировать, что драйвер заведётся после установки невозможно !
+                                        поэтому гарантировать что драйвер заведется после установки невозможно !!!
 
                                     <────────────────────────────────────────────────────────────────────────────────>
 '
@@ -1077,10 +1075,10 @@ echo -n "
 read main_menu
       case "$main_menu" in
        "1" )
-       graphc_drivers='pacstrap -i /mnt mesa mesa-demos lib32-mesa vulkan-icd-loader lib32-vulkan-icd-loader nvidia-dkms nvidia-utils lib32-nvidia-utils vulkan-icd-loader lib32-vulkan-icd-loader lib32-opencl-nvidia opencl-nvidia network-manager-applet nvidia-settings --noconfirm'
+       graphc_drivers='pacstrap -i /mnt vulkan-icd-loader lib32-vulkan-icd-loader nvidia-dkms nvidia-utils lib32-nvidia-utils vulkan-icd-loader lib32-vulkan-icd-loader lib32-opencl-nvidia opencl-nvidia network-manager-applet nvidia-settings --noconfirm'
        #nvidia_driver="mhwd -a pci nonfree 0300"
        ;;
-       "2" ) graphc_drivers='pacstrap -i /mnt mesa mesa-demos lib32-mesa vulkan-icd-loader lib32-vulkan-icd-loader xf86-video-nouveau nvidia-utils lib32-nvidia-utils vulkan-icd-loader lib32-vulkan-icd-loader lib32-opencl-nvidia opencl-nvidia network-manager-applet nvidia-settings --noconfirm'
+       "2" ) graphc_drivers='pacstrap -i /mnt vulkan-icd-loader lib32-vulkan-icd-loader xf86-video-nouveau nvidia-utils lib32-nvidia-utils vulkan-icd-loader lib32-vulkan-icd-loader lib32-opencl-nvidia opencl-nvidia network-manager-applet nvidia-settings --noconfirm'
      esac
         ;;
         "4" ) clear
@@ -1106,15 +1104,15 @@ read main_menu
 #
 #                                              Далее вам надо будет ввести назание этого драйвера для установки
 #
-#                                               Например драйвер  video-nvidia, и прописать в поле для ввода
+#                                               Например драйвер  video-nvidia , и прописать в поле для ввода
 #
 #                                    <───────────────────────────────────────────────────────────────────────────────────>
 #
-#                                         Установка драйвера не гарантирует что всё с первого раза запуститься хорошо.
+#                                         Установка драйвера не гарантирует что все с первого раза запуститься хорошо.
 #
-#                                              Nvidia не открывает свой код для написания нормальных драйверов,
+#                                              Nvidia не открывает свой код для написания нормальных драйверов ,
 #
-#                                          поэтому гарантировать что драйвер заведётся после установки невозможно !!!
+#                                          поэтому гарантировать что драйвер заведется после установки невозможно !!!
 #
 #                                      <────────────────────────────────────────────────────────────────────────────────>
 #'
@@ -1155,11 +1153,11 @@ echo '
 
                                   .─────────────────────────────────────────────────────────────────────────────────────.
                                   .                                                                                     .
-                                  . Установка драйвера Nvidia не гарантирует, что всё с первого раза запуститься хорошо .
+                                  . Установка драйвера Nvidia не гарантирует ,что все с первого раза запуститься хорошо .
                                   .                                                                                     .
-                                  .      Nvidia не открывает свой код для написания нормальных драйверов,               .
+                                  .      Nvidia не открывает свой код для написания нормальных драйверов ,              .
                                   .                                                                                     .
-                                  .    поэтому гарантировать что драйвер завёдется после установки невозможно !!!       .
+                                  .    поэтому гарантировать что драйвер заведется после установки невозможно !!!       .
                                   .                                                                                     .
                                    ──────────────────────────────────────────────────────────────────────────────────────
 '
@@ -1188,20 +1186,20 @@ read main_menu
        graphc_drivers='pacstrap -i /mnt mesa mesa-demos xf86-video-intel lib32-mesa vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader network-manager-applet libva-intel-driver lib32-libva-intel-driver xf86-video-ati xf86-video-amdgpu mesa mesa-demos lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader amdvlk lib32-amdvlk lib32-vulkan-icd-loader --noconfirm'
        ;;
        "2" )
-       graphc_drivers='pacstrap -i /mnt mesa mesa-demos xf86-video-intel lib32-mesa vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader network-manager-applet libva-intel-driver lib32-libva-intel-driver nvidia-dkms nvidia-settings nvidia-prime --noconfirm'
+       graphc_drivers='pacstrap -i /mnt xf86-video-intel vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader network-manager-applet libva-intel-driver lib32-libva-intel-driver nvidia-dkms nvidia-settings nvidia-prime --noconfirm'
        #nvidia_driver="mhwd -a pci nonfree 0300"
        #optimus="systemctl enable optimus-manager"
        ;;
        "3" )
-       graphc_drivers='pacstrap -i /mnt mesa mesa-demos xf86-video-intel lib32-mesa vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader network-manager-applet libva-intel-driver lib32-libva-intel-driver xf86-video-nouveau nvidia-utils lib32-nvidia-utils vulkan-icd-loader lib32-vulkan-icd-loader lib32-opencl-nvidia opencl-nvidia nvidia-settings nvidia-prime --noconfirm'
+       graphc_drivers='pacstrap -i /mnt xf86-video-intel vulkan-intel lib32-vulkan-intel vulkan-icd-loader lib32-vulkan-icd-loader network-manager-applet libva-intel-driver lib32-libva-intel-driver xf86-video-nouveau nvidia-utils lib32-nvidia-utils vulkan-icd-loader lib32-vulkan-icd-loader lib32-opencl-nvidia opencl-nvidia nvidia-settings nvidia-prime --noconfirm'
        ;;
        "4" )
-       graphc_drivers='pacstrap -i /mnt xf86-video-ati xf86-video-amdgpu mesa mesa-demos lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader network-manager-applet amdvlk lib32-amdvlk nvidia-dkms nvidia-settings nvidia-prime --noconfirm'
+       graphc_drivers='pacstrap -i /mnt xf86-video-ati xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader network-manager-applet amdvlk lib32-amdvlk nvidia-dkms nvidia-settings nvidia-prime --noconfirm'
        #nvidia_driver="mhwd -a pci nonfree 0300"
        #optimus="systemctl enable optimus-manager"
        ;;
        "5" )
-       graphc_drivers='pacstrap -i /mnt xf86-video-ati xf86-video-amdgpu mesa mesa-demos lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader vulkan-icd-loader lib32-vulkan-icd-loader xf86-video-nouveau nvidia-utils lib32-nvidia-utils vulkan-icd-loader lib32-vulkan-icd-loader lib32-opencl-nvidia opencl-nvidia  amdvlk lib32-amdvlk network-manager-applet nvidia-settings nvidia-prime --noconfirm'
+       graphc_drivers='pacstrap -i /mnt xf86-video-ati xf86-video-amdgpu  vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader vulkan-icd-loader lib32-vulkan-icd-loader xf86-video-nouveau nvidia-utils lib32-nvidia-utils vulkan-icd-loader lib32-vulkan-icd-loader lib32-opencl-nvidia opencl-nvidia  amdvlk lib32-amdvlk network-manager-applet nvidia-settings nvidia-prime --noconfirm'
        #optimus="systemctl enable optimus-manager"
       esac
 
@@ -1244,12 +1242,12 @@ echo -e "\t
                                                              -> Для установки Lxqt введите ( 5 ) "
 echo -e "\t
 
-                                                          -> Для установки KDE облегчённая введите ( 6 )
+                                                          -> Для установки KDE облегченная введите ( 6 )
 
                                                                 Без пакета    kde-applicatios          "
 echo -e "\t
 
-                                                          -> Для установки GNOME облегчённая введите ( 7 )
+                                                          -> Для установки GNOME облегченная введите ( 7 )
 
                                                                 Без пакета gnome-extra                   "
 echo -e "\t
@@ -1361,7 +1359,7 @@ echo '
 ─▒▒▒▒▒▒▒──█████▄────── ╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
 ─▒─▒─▒─▒───▀████▀─────────────────────────────────────────────────────────────────|
 
-                       Пожалуйста пдождите, идет настройка скачивания пакетов,
+                       Пожалуйста пдождите , идет настройка скачивания пакетов,
 
                                   это займет пару мнгновений ) .......
 
@@ -1442,7 +1440,7 @@ echo '
 ░░░░░░░░░█░░░░█░░░░░░░░
 ███████▄▄█░░░░░██████▄░░
 ▓▓▓▓▓▓█░░░░░░░░░░░░░░█░
-▓▓▓▓▓▓█░░░░░░░░░░░░░░█░              Установка успешно завершена. Сейчас компьютер будет перезагружен.
+▓▓▓▓▓▓█░░░░░░░░░░░░░░█░              Установка успешно завершена . Сейчас компьютер будет перезагружен .
 ▓▓▓▓▓▓█░░░░░░░░░░░░░░█░
 ▓▓▓▓▓▓█░░░░░░░░░░░░░░█░
 ▓▓▓▓▓▓█░░░░░░░░░░░░░░█░
